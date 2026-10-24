@@ -70,3 +70,6 @@ Thumbs.db
 # Owner-approved non-personal celestial artwork source sheets only
 !/assets/zodiac-sign/western/approved-atlas.png
 !/assets/zodiac-sign/vietnamese/approved-atlas.png
+
+# Local Python environment (owner, 2026-10-24: installs only here)
+.venv/

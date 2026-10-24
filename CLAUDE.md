@@ -6,7 +6,9 @@ Partner agent: Codex (plugin installed, signed in). Codex reads `AGENTS.md`; kee
 
 ## Current phase
 
-Planning and design only. **No application code** until the owner approves the PRD and plan. Docs, `.gitignore` and design notes are allowed.
+Planning and design only. **No code of any kind in the repo** (application code, scripts, generators) until the owner approves the PRD, the plan and **all design previews** (owner, 2026-10-24). Docs, `.gitignore` and design notes are allowed; designs are drawn directly in the preview canvas. Helper scripts live in the session scratchpad, never in the repo.
+
+**Installs only into the project `.venv`** (owner, 2026-10-24): any package Claude or Codex needs goes into `./.venv` (git-ignored), never system-wide or into another folder, and still needs rule 1 approval.
 
 ## Restricted rules (always apply, to Claude and to Codex)
 
